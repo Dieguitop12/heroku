@@ -1,0 +1,22 @@
+{
+  "name": "vcsgye",
+  "version": "1.0.0",
+  "description": "Sistma de Informacion para la Gestion de la Vinculacion con la Sociedad.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "vcs",
+    "gye"
+  ],
+  "author": "Diego Gonzalez",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.7"
+  }
+}
